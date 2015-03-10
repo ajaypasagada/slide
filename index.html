@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        
+          <meta charset="utf-8"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+   
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  
+
+   <script type="text/javascript" src="js/bootstrap.js"></script> 
+    </head>
+<style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+  </style>  
+    <body style="background-color:white;">
+        
+        <table  align="center" frame="box" style="width:83%;"/>
+            
+            
+        <tr style="background-color:white;">
+               <td>
+        <img src="images/geo.jpg" alt="Chan"   style="width:200px;height:60px;"/>
+      </td>
+            </tr>
+            
+            
+            
+            
+            
+            <tr style="background-color:white;">
+                <td>
+                    
+                    <div class="content" >
+			<h1 class="title"></h1>
+			<ul id="sdt_menu" class="sdt_menu">
+                            <li>
+					<a href="#">
+                                            <img  src="images/2.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">About Us</span>
+							<span class="sdt_descr">Get to know me</span>
+						</span>
+					</a>
+				</li>
+				<li>
+                                    <a href="#" style="">
+						<img src="images/1.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">Research</span>
+							<span class="sdt_descr">My work</span>
+						</span>
+					</a>
+					<div class="sdt_box">
+							<a href="#">Websites</a>
+							<a href="#">Illustrations</a>
+							<a href="#">Photography</a>
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/3.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">Team</span>
+							<span class="sdt_descr">Where ideas get born</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/4.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">Mission</span>
+							<span class="sdt_descr">I like to experiment</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/5.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span style="position:absolute;left:15px;"  class="sdt_wrap">
+							<span class="sdt_link">Requirement</span>
+							<span class="sdt_descr">I write about design</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/6.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">Equipment</span>
+							<span class="sdt_descr">I like to code</span>
+						</span>
+					</a>
+					<div class="sdt_box">
+						<a href="#">Info</a>
+						<a href="#">Apply</a>
+						<a href="#">Contact us</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+                    
+                    
+                    
+                </td>
+            </tr>
+            
+              <tr><td>       
+                      
+                      
+ 
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/pic1.jpg" alt="Chania" style="height:350px;width:100%;"/>
+      </div>
+
+      <div class="item ">
+        <img src="images/pic12.jpg" alt="Chania"   style="height:350px;"/>
+      </div>
+    
+      <div class="item">
+        <img src="images/pic13.jpg" alt="Flower"  style="height:350px;"/>
+      </div>
+
+      <div class="item">
+        <img src="images/pic10.jpg" alt="Flower" style="height:350px;"/>
+      </div>
+    </div>
+
+    
+  </div>
+    
+                     
+            
+            
+                   
+               
+                            
+                            
+                            
+                            
+                            
+                </td></tr>      
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </table>
+		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <!-- The JavaScript -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/javascript" src="jquery.easing.1.3.js"></script>
+        <script type="text/javascript">
+            $(function() {
+				/**
+				* for each menu element, on mouseenter, 
+				* we enlarge the image, and show both sdt_active span and 
+				* sdt_wrap span. If the element has a sub menu (sdt_box),
+				* then we slide it - if the element is the last one in the menu
+				* we slide it to the left, otherwise to the right
+				*/
+                $('#sdt_menu > li').bind('mouseenter',function(){
+					var $elem = $(this);
+					$elem.find('img')
+						 .stop(true)
+						 .animate({
+							'width':'200px',
+							'height':'82px',
+							'left':'0px'
+						 },400,'easeOutBack')
+						 .andSelf()
+						 .find('.sdt_wrap')
+					     .stop(true)
+						 .animate({'top':'90px'},500,'easeOutBack')
+						 .andSelf()
+						 .find('.sdt_active')
+					     .stop(true)
+						 .animate({'height':'70px'},300,function(){
+						var $sub_menu = $elem.find('.sdt_box');
+						if($sub_menu.length){
+							var left = '70px';
+							if($elem.parent().children().length == $elem.index()+1)
+								left = '-270px';
+							$sub_menu.show().animate({'left':left},200);
+						}	
+					});
+				}).bind('mouseleave',function(){
+					var $elem = $(this);
+					var $sub_menu = $elem.find('.sdt_box');
+					if($sub_menu.length)
+						$sub_menu.hide().css('left','0px');
+					
+					$elem.find('.sdt_active')
+						 .stop(true)
+						 .animate({'height':'0px'},300)
+						 .andSelf().find('img')
+						 .stop(true)
+						 .animate({
+							'width':'0px',
+							'height':'0px',
+							'left':'85px'},400)
+						 .andSelf()
+						 .find('.sdt_wrap')
+						 .stop(true)
+						 .animate({'top':'25px'},500);
+				});
+            });
+        </script>
+    </body>
+</html>
